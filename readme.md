@@ -11,3 +11,21 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Install Docker Step Wise Process
+
+Step 1 -> Install Docker (https://docs.docker.com/get-docker/)
+
+Sometimes you will get error after installing Docker
+
+[hardware assisted virtualization and data execution protection must be enabled in the bios. see https://docs.docker.com/desktop/windows/troubleshoot/#virtualization]
+
+You can resolve this by enabling Virtualization from bios setting
+
+and Hyper-V from features
+
+After that install linux kernel update package
+
+then your Docker is Succesfully installed.
+
+Thanks.
